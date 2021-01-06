@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+linuxdeploy \
+  --executable=target/release/toph \
+  --desktop-file=toph.desktop \
+  --icon-file=toph.png \
+  --appdir=AppDir
+appimagetool --no-appstream --sign AppDir
