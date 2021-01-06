@@ -33,7 +33,7 @@ At a minimum, OpenGL 3.3 support is required.
 ## Build Dependencies
 
 - **[rust](https://www.rust-lang.org/tools/install)**
-- **[cmake](https://cmake.org/download/)
+- **[cmake](https://cmake.org/download/)**
 
 On macOS, `Xcode` and the `Xcode Command Line Tools` are required.
 The latter can be obtained by running `xcode-select --install`.
